@@ -3,10 +3,10 @@ const chalk = require("chalk");
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "917003213983, 923087880256";
+  gg = "5732187160402, 573218716402";
 }
 
-global.owner = gg.split(",");
+global.owner = gg.split("NPC,Heasumi-Bot");
 global.mongodb = process.env.MONGODB || "none";
 global.prefa = process.env.PREFIX || ".";
 global.ggle = process.env.GOOGLE_API || "none";
